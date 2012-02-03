@@ -1,5 +1,6 @@
 import pyodbc
-cnxn = pyodbc.connect('DSN=ParisAuctionNet;UID=emonson;PWD=test.log')
+# cnxn = pyodbc.connect('DSN=ParisAuctionNet;UID=emonson;PWD=test.log')
+cnxn = pyodbc.connect('DSN=ImageRefTest;UID=emonson;PWD=test.log')
 cursor = cnxn.cursor()
 # cursor.execute('select "Year of Sale","Date of Sale" from Catalogues')
 # rows = cursor.fetchall()
